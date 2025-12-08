@@ -26,8 +26,15 @@ SECRET_KEY = 'django-insecure-zzp4f=)x$k7kzoeig@3ekr^k&54($s4bd&sl5)&pabqhsbwmhz
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+
+    # Render
     'django-deploy-demo.onrender.com',
     '.onrender.com',
+
+    # Fly.io
+    '.fly.dev',
 ]
 
 
